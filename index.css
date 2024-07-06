@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+/* styles.css */
+
+.skills-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skills-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+  font-family: 'Merriweather', serif;
+}
+
+.skills-section {
+  margin-bottom: 40px;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.skills-section:hover {
+  transform: scale(1.03);
+  background-color: #f9f9f9;
+}
+
+.skills-subheading {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list-item {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.skills-list-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for each skill category */
+.technical-skills {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  border-left: 5px solid #1e88e5;
+}
+
+.design-skills {
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border-left: 5px solid #fb8c00;
+}
+
+.soft-skills {
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  border-left: 5px solid #43a047;
+}
+
